@@ -30,6 +30,13 @@ dependencies {
 
 bootRun.environment([
         "WELCOME_MESSAGE": "hello",
+        "CF_API_URL": "api.run.pivotal.io",
+        "CF_ORG":  "Thunder_org",
+        "CF_SPACE" : "review",
+        "CF_USERNAME": "karthick.p61@wipro.com",
+        "CF_PASSWORD" : "Qwerty_123",
+         "GITHUB_USERNAME" : "karthick.p61@wipro.com",
+         "GITHUB_OAUTH_TOKEN" : "d6a5d281485b437a44bddc8ce4b7d4c4dfecb798"
 ])
 
 test.environment([
